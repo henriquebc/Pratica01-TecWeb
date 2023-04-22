@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(227, 227, 227);
+    padding: 0px;
+    margin: 0px;
+}
+#menuinicio{
+    background-color: rgb(3, 146, 255);
+    padding: 0px;
+    margin: 0px;
+}
+
+body h1{
+    align-items: center;
+    color: rgb(39, 40, 40);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 1%;
+}
+
+.menu{
+    text-decoration: none;
+    padding: 5px;
+    font-size: larger;
+    border-right: 2px solid;
+}
+.tabelamenu{
+    border-bottom: 1px solid;
+    border-color: rgb(5, 5, 5);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+div img.imagem{
+    width: 500px;
+    border-radius: 10px;
+}
+div.formulario{
+    border: 2px solid rgb(218, 255, 6);
+    padding: 10px;
+    display: block;
+    width: 500px;
+    margin: 10px;
+    background-color: rgb(255, 255, 145);
+}
+#botao{
+    display: block;
+    margin: 5px;
+    padding:4px;
+    background-color: aqua;
+    border: 1px solid rgb(15, 194, 194);
+}
+
+.tabelaservico{
+    position: relative;
+    margin: 20px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(214, 238, 144);
+}
+table thead tr th{
+    text-align: justify;
+    padding: 2px;
+    
+}
+table tbody tr td{
+    padding: 5px;
+    text-align: left;
+}
+
+.celularesusados{
+    display: inline-block;
+    background-color: rgb(254, 255, 255);
+    margin: 5px;
+    padding: 3px;
+}
+#celularusado{
+    display: inline-flex;
+    border: 1px solid black;
+    border-radius: 7px;
+    width: 400px;
+}

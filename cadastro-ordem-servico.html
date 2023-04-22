@@ -2,40 +2,39 @@
   <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="style.css">
     <title>Cadastro de Ordem de Serviço</title>
+    <style>
+      body{
+        background-color: aliceblue;
+      }
+    </style>
   </head>
 
   <body>
-    <a href="index.html">Inicio</a>
+    <div id="menuinicio">
+      <h1>Cadastro de Ordem de Serviço</h1>
+    </div>
+    <a class="menu" href="index.html">Inicio</a>
 
-    <h1>Cadastro de Ordem de Serviço</h1>
 
     <form action="GET">
-      </br>
-      Nome: 
-      </br>
+      <div class="formulario">
+      <p>Nome:</p>      
       <input type="text" name="nome"/>
-      </br>
-      CPF:
-      </br>
+      <p>CPF:</p>
       <input type="text" name="cpf"/>
-      </br>
-      Modelo do Celular:
-      </br>
+      <p>Modelo do Celular:</p>
       <select name="modelo_celular">
         <option value="xxy">XXY</option>
         <option value="a00">A00</option>
       </select>
-      </br>
-      Relato de Defeito:
-      </br>
+      <p>Relato de Defeito:</p>
       <textarea name="relato_defeito" cols="30" rows="10"></textarea>
-      </br>
-      Imagem do Aparelho
-      <br>
+      <p>Imagem do Aparelho</p>
       <input type="file"/>
-      <br>
-      <button type="submit">Enviar</button>
+      <button id="botao" type="submit">Enviar</button>
+      </div>
     </form>
     
   </body>

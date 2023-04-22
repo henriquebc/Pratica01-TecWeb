@@ -1,30 +1,39 @@
 <html lang="pt-br">
   <head>
     <meta charset="utf-8"/>
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>TecAssiste</title>
+    <style>
+      li{
+        font-size: x-large;
+        padding: 10px;
+      }
+    </style>
   </head>
 
   <body>
-    <h1>Assistência Técnica de Celular</h1>
-
+    <div id="menuinicio">
+      <h1>Assistência Técnica de Celular</h1>
+    </div>
     <div>
-      <table>
+      <table class="tabelamenu">
         <thead>
           <tr>
-            <th><a href="index.html">Inicio</a></th>
-            <th><a href="cadastro-ordem-servico.html">Cadastro - Serviço</a></th>
-            <th><a href="detalhes-servicos.html">Detalhes Serviços</a></th>
-            <th><a href="revenda-celular.html">Revenda de Celular</a></th>
-            <th><a href="revenda-acessorios.html">Revenda de acessórios</a></th>
-            <th><a href="softwere-instal.html">Serviços de software</a></th>
-            <th><a href="acompanha.html">Acompanhamento de serviço</a></th>
+            <th><a class="menu" href="index.html">Inicio</a></th>
+            <th><a class="menu" href="cadastro-ordem-servico.html">Cadastro - Serviço</a></th>
+            <th><a class="menu" href="detalhes-servicos.html">Detalhes Serviços</a></th>
+            <th><a class="menu" href="revenda-celular.html">Revenda de Celular</a></th>
+            <th><a class="menu" href="revenda-acessorios.html">Revenda de acessórios</a></th>
+            <th><a class="menu" href="softwere-instal.html">Serviços de software</a></th>
+            <th><a class="menu" href="acompanha.html">Acompanhamento de serviço</a></th>
           </tr>
         </thead>
       </table>    
     </div>
 
-    <div>
+    <div style="display: inline-flex; padding-top: 5%; padding-left: 1%;">
+      <img class="imagem" src="img/assistencia-tecnica-celulares.jpg" alt="">
       <ul>
         <li>Telefone: (88) 99999-9999</li>
         <li>Email: teste@teste</li>
@@ -32,6 +41,7 @@
         <li>Rede Social: teste_teste</li>
       </ul>
     </div>
+    
     
   </body>
 </html>

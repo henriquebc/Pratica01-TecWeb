@@ -4,19 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Acompanhamento de serviço</title>
+    <style>
+      body{
+        background-color: aliceblue;
+      }
+    </style>
 </head>
 <body>
-    <a href="index.html">Inicio</a>
-
-    <h1>Acompanhamento do serviço</h1>
-
-    <form action="GET">
-      CPF:
-      </br>
-      <input type="text" name="cpf"/>
-      </br>
-      <button type="submit">Buscar</button>
-    </form>
+    <div id="menuinicio">
+      <h1>Acompanhamento do serviço</h1>
+    </div>
+    <a class="menu" href="index.html">Inicio</a>
+    <div class="formulario">
+      <form action="GET">
+        CPF:
+        </br>
+        <input type="text" name="cpf"/>
+        </br>
+        <button id="botao" type="submit">Buscar</button>
+      </form>
+    </div>
 </body>
 </html>
